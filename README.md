@@ -14,7 +14,21 @@
 ###### Entonces
 ######  Regresar "El número c es el mayor"
 #### 3.- Determinar si un número es o no primo
-Input: n(número)
-Declaramos: vector[2:n]
-Para vector[i] donde rango de i=(0,n)
-Si nmodulo
+###### Input: n(número)
+###### Para i donde rango de (1,n)
+######  Si n%i = 0
+######   Regresar "No es un número primo"
+######  Entonces
+######   Regresar "Es un número primo"
+#### 4.- Determinar si dos cadenas son palíndromas
+###### Input: palabra(cadena)
+###### Si palabra = palabra(::-1) 
+######  Regresar "La palabra es palíndroma"
+###### Entonces
+######  Regresar "La palabra no es palíndroma"
+#### 5.- Determinar si "ant" es una subcadena de "Se han establecido antecedentes desde el siglo XIX"
+###### Declarar: cadena = "Se han establecido antecedentes desde el siglo XIX"
+###### Si "ant" en cadena
+######  Regresar "ant es subcadena"
+###### Entonces
+######  Regresar "ant no es subcadena"
