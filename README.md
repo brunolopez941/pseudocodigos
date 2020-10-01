@@ -3,7 +3,7 @@
 ###### Input: a,b(números)
 ###### Si a>b
 ######  Regresar "El número a es mayor que b"
-###### entonces
+###### Entonces
 ######  Regresar "El número b es mayor que a"
 #### 2.- Determinar el mayor de tres números
 ###### Input: a,b,c(números)
